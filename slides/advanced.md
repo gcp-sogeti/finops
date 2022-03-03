@@ -11,14 +11,13 @@
 
 ### Tooling
 
-- Clouder services
-- Cloudhelath
-- Turbonomic
-- Cloudcheckr by NetApp
-- Cloudeasier
-- Apptio Cloudability
+- Clouder services.
+- Cloudhelath.
+- Turbonomic.
+- Cloudcheckr by NetApp.
+- Cloudeasier.
+- Apptio Cloudability.
 - ...
-	
 
 ----
 

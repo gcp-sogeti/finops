@@ -96,7 +96,7 @@ resource "google_compute_instance_from_template" "tpl" {
 ## Enforce Tag control
 
 You can enforce Tagging control :
-terraform-compliancea <img src="https://github.com/eerkunt/terraform-compliance/raw/master/logo.png" width="35%" style="background:none; border:none; box-shadow:none;"/>
+- terraform-compliancea
 - tfsec / Checkmark
 - terratag
 - Sentinel
