@@ -38,6 +38,4 @@ Kubecost allows you to analyze the usage and cost of resources in a Kubernetes c
 
 ## Kubernetes context
 
-Kubecost allows you to analyze the usage and cost of resources in a Kubernetes cluster
-
 ![kubecost](img/kubecost2.png)
