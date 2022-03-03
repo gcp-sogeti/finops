@@ -21,14 +21,8 @@ Apptio Cloudability
 
 ----
 
-## 
-![accès](img/console-admin.png)
+## Control the resources cost during deployment
+Infracost scans for Terraform code changes to create a simple, understandable cost estimate before any resources are launched.
 
-----
-
-## Creation d'un projet
-* Project Id : 6 à 30 caracteres
-* Services account :
-	* Doit être présent au niveau de l'organisation ou un folder
-	* Doit avoir le role Project Creator
+![panic](img/infracost.png)
 

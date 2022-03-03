@@ -10,7 +10,17 @@ So it's no longer a fight about the cost of infrastructure but a conversation ab
 ----
 
 ### Not a role, not a function, but a combination of activities
-<img src="img/culture.png" style="background:none; border:none; box-shadow:none;"/>
+<img src="https://finops.world/wp-content/uploads/2019/12/cloud-center-excellence-activities-1024x678.png" style="background:none; border:none; box-shadow:none;"/>
+
+----
+
+## Finops Teams
+
+The finops team is composed by techincal and financial members, who will work with many team.
+Mandatory : define and share objectives (KPI), best practices and recommandations
+
+Eq. : serverless usage vs classic IaaS.
+
 
 ----
 
@@ -22,6 +32,19 @@ So it's no longer a fight about the cost of infrastructure but a conversation ab
 > Run
 > Optimization
 > Technology watching & Expertise
+
+
+----
+
+## Economic Unit
+
+Economic unit for a project : The idea here is to measure cloud spend against to business metrics
+
+Why is import ? :
+It can help you in forecasting
+in terms of profits and therefore costs
+It allows you to optimize your products
+It allows you to evaluate the sustainability on the market
 
 ----
 
@@ -35,6 +58,53 @@ Level 3 : Establish digital sobriety as a pillar of the organization.
 
 ----
 
+## Organization strategy for Tagging resources
+
+Tags can be used to apply chargeback showback to associated business entities
+
+Technical teams can use tags to :
+- identify costs for each platform (production, integration, test & dev,QA...) 
+- trigger automated actions on resources with certain tags
+
+
+----
+
+## How to define tag ?
+
+Through IAC template you can associate tags
+
+```yaml
+resource "google_compute_instance_from_template" "tpl" {
+  name = "instance-from-template"
+  zone = "eu-central1-c"
+
+  source_instance_template = google_compute_instance_template.tpl.id
+
+  // Override fields from instance template
+  can_ip_forward = false
+  labels = {
+    environment = "production"
+    project     = "application-xx"
+    department  = "financial"
+  }
+}
+```
+
+----
+
+## Enforce Tag control
+
+You can enforce Tagging control :
+terraform-compliancea <img src="https://github.com/eerkunt/terraform-compliance/raw/master/logo.png" style="background:none; border:none; box-shadow:none;"/>
+tfsec / Checkmark
+terratag
+Sentinel
+Azure Policy
+....
+
+
+----
+
 ## Design for Cost Reduction
 
 • “Right-size” & “Right-family” instances.
@@ -42,7 +112,7 @@ Level 3 : Establish digital sobriety as a pillar of the organization.
 • Leverage spot instances to get the best price.
 • Use optimize services to leverage a “Pay as you go” model to reduce cost(ServerLess function, Pub/Sub, BiQuery etc.).
 • Design for server-less architecture.
-•  Delete unattached block storage discs. ...
+• Delete unattached block storage discs. ...
 • Delete obsolete snapshots. ...
 • Delete disassociated IP addresses. ...
 • Terminate zombie assets. ...
