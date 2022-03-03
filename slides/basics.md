@@ -33,7 +33,7 @@ Eq. : serverless usage vs classic IaaS.
  * Run
  * Optimization
  * Technology watching & Expertise
-
+<img src="img/finops-6steps.png" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
