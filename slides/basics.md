@@ -4,6 +4,7 @@
 ----
 
 ### Finops
+
 The goal of FinOps is not to save money. FinOps is about making money.
 So it's no longer a fight about the cost of infrastructure but a conversation about its business business.
 
@@ -17,7 +18,7 @@ So it's no longer a fight about the cost of infrastructure but a conversation ab
 ## Finops Teams
 
 The finops team is composed by techincal and financial members, who will work with many team.
-Mandatory : define and share objectives (KPI), best practices and recommandations
+Mandatory : define and share objectives (KPI), best practices and recommandations.
 
 Eq. : serverless usage vs classic IaaS.
 
