@@ -54,7 +54,7 @@ It allows you to evaluate the sustainability on the market.
 - Level 2 : Keep your expenses under control by optimizing usage and pricing (KPI).
 - Level 3 : Establish digital sobriety as a pillar of the organization.
 
-<img src="img/finops.png" style="background:none; border:none; box-shadow:none;"/>
+<img src="img/finops.png" width="50%" style="background:none; border:none; box-shadow:none;"/>
 
 ----
 
