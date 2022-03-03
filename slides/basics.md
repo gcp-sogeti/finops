@@ -26,12 +26,12 @@ Eq. : serverless usage vs classic IaaS.
 
 ## the 6 main steps
  
- > Strategy
- > Governance
- > Build
- > Run
- > Optimization
- > Technology watching & Expertise
+ * Strategy
+ * Governance
+ * Build
+ * Run
+ * Optimization
+ * Technology watching & Expertise
 
 
 ----
