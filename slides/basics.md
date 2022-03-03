@@ -25,13 +25,13 @@ Eq. : serverless usage vs classic IaaS.
 ----
 
 ## the 6 main steps
-
-> Strategy
-> Governance
-> Build
-> Run
-> Optimization
-> Technology watching & Expertise
+- 
+- > Strategy
+- > Governance
+- > Build
+- - > Run
+- > Optimization
+- > Technology watching & Expertise
 
 
 ----
@@ -41,18 +41,18 @@ Eq. : serverless usage vs classic IaaS.
 Economic unit for a project : The idea here is to measure cloud spend against to business metrics
 
 Why is import ? :
-It can help you in forecasting
-in terms of profits and therefore costs
-It allows you to optimize your products
-It allows you to evaluate the sustainability on the market
+It can help you in forecasting.
+in terms of profits and therefore costs.
+It allows you to optimize your products.
+It allows you to evaluate the sustainability on the market.
 
 ----
 
 ### Finops Level adoption
 
-Level 1 : Understand your invoice for the Cloud and lay the foundations (quickwins).
-Level 2 : Keep your expenses under control by optimizing usage and pricing (KPI).
-Level 3 : Establish digital sobriety as a pillar of the organization.
+- Level 1 : Understand your invoice for the Cloud and lay the foundations (quickwins).
+- Level 2 : Keep your expenses under control by optimizing usage and pricing (KPI).
+- Level 3 : Establish digital sobriety as a pillar of the organization.
 
 <img src="img/finops.png" style="background:none; border:none; box-shadow:none;"/>
 
