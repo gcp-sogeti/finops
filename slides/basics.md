@@ -60,7 +60,7 @@ It allows you to evaluate the sustainability on the market.
 
 ## Organization strategy for Tagging resources
 
-Tags can be used to apply chargeback showback to associated business entities
+Tags can be used to apply chargeback showback to associated business entities.
 
 Technical teams can use tags to :
 - identify costs for each platform (production, integration, test & dev,QA...) 
@@ -96,35 +96,35 @@ resource "google_compute_instance_from_template" "tpl" {
 
 You can enforce Tagging control :
 terraform-compliancea <img src="https://github.com/eerkunt/terraform-compliance/raw/master/logo.png" width="35%" style="background:none; border:none; box-shadow:none;"/>
-* tfsec / Checkmark
-* terratag
-* Sentinel
-* Azure Policy
-* ....
+- tfsec / Checkmark
+- terratag
+- Sentinel
+- Azure Policy
+- ....
 
 
 ----
 
 ## Design for Cost Reduction
 
-• “Right-size” & “Right-family” instances.
-• Purchasing Reserved Instances (RI) for groups of long-running instances.
-• Leverage spot instances to get the best price.
-• Use optimize services to leverage a “Pay as you go” model to reduce cost(ServerLess function, Pub/Sub, BiQuery etc.).
-• Design for server-less architecture.
-• Delete unattached block storage discs. ...
-• Delete obsolete snapshots. ...
-• Delete disassociated IP addresses. ...
-• Terminate zombie assets. ...
-• Put non-production VMs on a schedule. ...
-• Take advantage of committed use discounts. ...
-• Migrate cold data to lower cost storage.
+- “Right-size” & “Right-family” instances.
+- Purchasing Reserved Instances (RI) for groups of long-running instances.
+- Leverage spot instances to get the best price.
+- Use optimize services to leverage a “Pay as you go” model to reduce cost(ServerLess function, Pub/Sub, BiQuery etc.).
+- Design for server-less architecture.
+- Delete unattached block storage discs. ...
+- Delete obsolete snapshots. ...
+- Delete disassociated IP addresses. ...
+- Terminate zombie assets. ...
+- Put non-production VMs on a schedule. ...
+- Take advantage of committed use discounts. ...
+- Migrate cold data to lower cost storage.
 
 ----
 
 ## Implementing governance policies and rules
 
-• Track and manage changes like: launching new resources, tracking and terminating unused or underutilized assets
-• Automate workflow for policy actions like: stop or terminate instances, delete volumes, etc.
-• Automate the process of purchasing and modifying reserved instances across one of more accounts.
-• Avoid costly surprises in your cloud. Proactively manage your cloud with policy notifications
+- Track and manage changes like: launching new resources, tracking and terminating unused or underutilized assets
+- Automate workflow for policy actions like: stop or terminate instances, delete volumes, etc.
+- Automate the process of purchasing and modifying reserved instances across one of more accounts.
+- Avoid costly surprises in your cloud. Proactively manage your cloud with policy notifications
