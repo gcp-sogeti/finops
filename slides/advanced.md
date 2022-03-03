@@ -26,7 +26,6 @@ Infracost scans for Terraform code changes to create a simple, understandable co
 
 ![panic](img/infracost.png)
 
-
 ----
 
 ## Kubernetes context
@@ -34,3 +33,11 @@ Infracost scans for Terraform code changes to create a simple, understandable co
 Kubecost allows you to analyze the usage and cost of resources in a Kubernetes cluster
 
 ![kubecost](img/kubecost.png)
+
+----
+
+## Kubernetes context
+
+Kubecost allows you to analyze the usage and cost of resources in a Kubernetes cluster
+
+![kubecost](img/kubecost2.png)
