@@ -39,3 +39,8 @@ Kubecost allows you to analyze the usage and cost of resources in a Kubernetes c
 ## Kubernetes context
 
 ![kubecost](img/kubecost2.png)
+----
+
+## Kubecost IHM sample
+
+kubectl port-forward --namespace kubecost deployment/kubecost-cost-analyzer 9090
